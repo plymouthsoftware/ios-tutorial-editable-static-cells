@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8391321216529A100053F867 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391321116529A100053F867 /* UIKit.framework */; };
+		8391321416529A100053F867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391321316529A100053F867 /* Foundation.framework */; };
+		8391321616529A100053F867 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8391321516529A100053F867 /* CoreGraphics.framework */; };
+		8391321C16529A100053F867 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8391321A16529A100053F867 /* InfoPlist.strings */; };
+		8391321E16529A100053F867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391321D16529A100053F867 /* main.m */; };
+		8391322216529A100053F867 /* PSWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391322116529A100053F867 /* PSWAppDelegate.m */; };
+		8391322416529A100053F867 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8391322316529A100053F867 /* Default.png */; };
+		8391322616529A100053F867 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8391322516529A100053F867 /* Default@2x.png */; };
+		8391322816529A100053F867 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8391322716529A100053F867 /* Default-568h@2x.png */; };
+		8391322B16529A100053F867 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8391322916529A100053F867 /* MainStoryboard.storyboard */; };
+		8391323616529A340053F867 /* PSWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391323516529A340053F867 /* PSWTableViewController.m */; };
+		8391323916529D470053F867 /* PSWTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391323816529D470053F867 /* PSWTextFieldTableViewCell.m */; };
+		8391323C1652A2EC0053F867 /* PSWTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8391323B1652A2EC0053F867 /* PSWTextViewTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8391320E16529A100053F867 /* Editable Table Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Editable Table Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8391321116529A100053F867 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8391321316529A100053F867 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8391321516529A100053F867 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8391321916529A100053F867 /* Editable Table Cells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Editable Table Cells-Info.plist"; sourceTree = "<group>"; };
+		8391321B16529A100053F867 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8391321D16529A100053F867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8391321F16529A100053F867 /* Editable Table Cells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Editable Table Cells-Prefix.pch"; sourceTree = "<group>"; };
+		8391322016529A100053F867 /* PSWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSWAppDelegate.h; sourceTree = "<group>"; };
+		8391322116529A100053F867 /* PSWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSWAppDelegate.m; sourceTree = "<group>"; };
+		8391322316529A100053F867 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8391322516529A100053F867 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8391322716529A100053F867 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8391322A16529A100053F867 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8391323416529A340053F867 /* PSWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWTableViewController.h; sourceTree = "<group>"; };
+		8391323516529A340053F867 /* PSWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWTableViewController.m; sourceTree = "<group>"; };
+		8391323716529D460053F867 /* PSWTextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		8391323816529D470053F867 /* PSWTextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		8391323A1652A2EC0053F867 /* PSWTextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSWTextViewTableViewCell.h; sourceTree = "<group>"; };
+		8391323B1652A2EC0053F867 /* PSWTextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSWTextViewTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8391320B16529A100053F867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8391321216529A100053F867 /* UIKit.framework in Frameworks */,
+				8391321416529A100053F867 /* Foundation.framework in Frameworks */,
+				8391321616529A100053F867 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8391320516529A100053F867 = {
+			isa = PBXGroup;
+			children = (
+				8391321716529A100053F867 /* Editable Table Cells */,
+				8391321016529A100053F867 /* Frameworks */,
+				8391320F16529A100053F867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8391320F16529A100053F867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8391320E16529A100053F867 /* Editable Table Cells.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8391321016529A100053F867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8391321116529A100053F867 /* UIKit.framework */,
+				8391321316529A100053F867 /* Foundation.framework */,
+				8391321516529A100053F867 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8391321716529A100053F867 /* Editable Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8391322016529A100053F867 /* PSWAppDelegate.h */,
+				8391322116529A100053F867 /* PSWAppDelegate.m */,
+				8391322916529A100053F867 /* MainStoryboard.storyboard */,
+				8391321816529A100053F867 /* Supporting Files */,
+				8391323416529A340053F867 /* PSWTableViewController.h */,
+				8391323516529A340053F867 /* PSWTableViewController.m */,
+				8391323716529D460053F867 /* PSWTextFieldTableViewCell.h */,
+				8391323816529D470053F867 /* PSWTextFieldTableViewCell.m */,
+				8391323A1652A2EC0053F867 /* PSWTextViewTableViewCell.h */,
+				8391323B1652A2EC0053F867 /* PSWTextViewTableViewCell.m */,
+			);
+			path = "Editable Table Cells";
+			sourceTree = "<group>";
+		};
+		8391321816529A100053F867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8391321916529A100053F867 /* Editable Table Cells-Info.plist */,
+				8391321A16529A100053F867 /* InfoPlist.strings */,
+				8391321D16529A100053F867 /* main.m */,
+				8391321F16529A100053F867 /* Editable Table Cells-Prefix.pch */,
+				8391322316529A100053F867 /* Default.png */,
+				8391322516529A100053F867 /* Default@2x.png */,
+				8391322716529A100053F867 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8391320D16529A100053F867 /* Editable Table Cells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8391323116529A100053F867 /* Build configuration list for PBXNativeTarget "Editable Table Cells" */;
+			buildPhases = (
+				8391320A16529A100053F867 /* Sources */,
+				8391320B16529A100053F867 /* Frameworks */,
+				8391320C16529A100053F867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Editable Table Cells";
+			productName = "Editable Table Cells";
+			productReference = 8391320E16529A100053F867 /* Editable Table Cells.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8391320616529A100053F867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PSW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Plymouth Software Ltd";
+			};
+			buildConfigurationList = 8391320916529A100053F867 /* Build configuration list for PBXProject "Editable Table Cells" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8391320516529A100053F867;
+			productRefGroup = 8391320F16529A100053F867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8391320D16529A100053F867 /* Editable Table Cells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8391320C16529A100053F867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8391321C16529A100053F867 /* InfoPlist.strings in Resources */,
+				8391322416529A100053F867 /* Default.png in Resources */,
+				8391322616529A100053F867 /* Default@2x.png in Resources */,
+				8391322816529A100053F867 /* Default-568h@2x.png in Resources */,
+				8391322B16529A100053F867 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8391320A16529A100053F867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8391321E16529A100053F867 /* main.m in Sources */,
+				8391322216529A100053F867 /* PSWAppDelegate.m in Sources */,
+				8391323616529A340053F867 /* PSWTableViewController.m in Sources */,
+				8391323916529D470053F867 /* PSWTextFieldTableViewCell.m in Sources */,
+				8391323C1652A2EC0053F867 /* PSWTextViewTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8391321A16529A100053F867 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8391321B16529A100053F867 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8391322916529A100053F867 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8391322A16529A100053F867 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8391322F16529A100053F867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8391323016529A100053F867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8391323216529A100053F867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Editable Table Cells/Editable Table Cells-Prefix.pch";
+				INFOPLIST_FILE = "Editable Table Cells/Editable Table Cells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8391323316529A100053F867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Editable Table Cells/Editable Table Cells-Prefix.pch";
+				INFOPLIST_FILE = "Editable Table Cells/Editable Table Cells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8391320916529A100053F867 /* Build configuration list for PBXProject "Editable Table Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8391322F16529A100053F867 /* Debug */,
+				8391323016529A100053F867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8391323116529A100053F867 /* Build configuration list for PBXNativeTarget "Editable Table Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8391323216529A100053F867 /* Debug */,
+				8391323316529A100053F867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8391320616529A100053F867 /* Project object */;
+}
